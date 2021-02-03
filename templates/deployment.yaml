@@ -13,10 +13,6 @@ spec:
     metadata:
       labels:
         app: {{ template "errbit-helm.name" . }}
-        release: {{ .Release.Name }}
-      annotations:
-        checksum/secret: {{ include (print $.Template.BasePath "/secret.yaml") . | sha256sum }}
-        checksum/config: {{ include (print $.Template.BasePath "/cm.yaml") . | sha256sum }}
     spec:
       containers:
         - name: {{ .Chart.Name }}
