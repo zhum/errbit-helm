@@ -2,7 +2,20 @@ apiVersion: v1
 entries:
   errbit-helm:
   - apiVersion: v1
-    created: 2018-01-13T18:35:17.103810241+01:00
+    created: "2021-02-03T18:18:07.151808796+03:00"
+    description: Deploys Errbit. Errbit is a tool for collecting and managing errors
+      from other applications
+    digest: 2c3fe69e0b9a933dda2f3ebdaef11cd567e346f2746469e7eb66dda45f6800e9
+    icon: https://errbit.com/images/apps.png
+    name: errbit-helm
+    sources:
+    - https://github.com/zhum/errbit-helm
+    - https://github.com/errbit/errbit
+    urls:
+    - errbit-helm-0.4.1.tgz
+    version: 0.4.1
+  - apiVersion: v1
+    created: "2021-02-03T18:18:07.145435426+03:00"
     description: Deploys Errbit. Errbit is a tool for collecting and managing errors
       from other applications
     digest: d49e7a62fee66eb0bbbb7d7d3e7f923324f795bb8c075246cd01feecd68231b6
@@ -12,10 +25,10 @@ entries:
     - https://github.com/tmaier/errbit-helm
     - https://github.com/errbit/errbit
     urls:
-    - https://tmaier.github.io/errbit-helm/errbit-helm-0.4.0.tgz
+    - errbit-helm-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v1
-    created: 2018-01-13T18:35:17.10308051+01:00
+    created: "2021-02-03T18:18:07.143922712+03:00"
     description: Deploys Errbit. Errbit is a tool for collecting and managing errors
       from other applications
     digest: 0eeb44936f240169f59c32d91222d25bff6ef950b45cc8ce0f77b7b666b5ce7b
@@ -25,10 +38,10 @@ entries:
     - https://github.com/tmaier/errbit-helm
     - https://github.com/errbit/errbit
     urls:
-    - https://tmaier.github.io/errbit-helm/errbit-helm-0.3.1.tgz
+    - errbit-helm-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v1
-    created: 2018-01-13T18:35:17.102398305+01:00
+    created: "2021-02-03T18:18:07.142587269+03:00"
     description: Deploys Errbit. Errbit is a tool for collecting and managing errors
       from other applications
     digest: 28eb762cecf27dd22afd3210205400ab7a81edc05488373594cebfbd66f4cf06
@@ -38,10 +51,10 @@ entries:
     - https://github.com/tmaier/errbit-helm
     - https://github.com/errbit/errbit
     urls:
-    - https://tmaier.github.io/errbit-helm/errbit-helm-0.3.0.tgz
+    - errbit-helm-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v1
-    created: 2018-01-13T18:35:17.101703727+01:00
+    created: "2021-02-03T18:18:07.141263687+03:00"
     description: Deploys Errbit. Errbit is a tool for collecting and managing errors
       from other applications
     digest: 6b134aa59ef7eebc0caa2970e4d9b344619b0a0e0437535094828943ae29194e
@@ -51,10 +64,10 @@ entries:
     - https://github.com/tmaier/errbit-helm
     - https://github.com/errbit/errbit
     urls:
-    - https://tmaier.github.io/errbit-helm/errbit-helm-0.2.0.tgz
+    - errbit-helm-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: 2018-01-13T18:35:17.101043972+01:00
+    created: "2021-02-03T18:18:07.139960604+03:00"
     description: A Helm chart for Kubernetes
     digest: d9533933b6e397ae4be80988716e393d476cb65cbf59358b946ca6c130c39608
     icon: https://errbit.com/images/apps.png
@@ -63,6 +76,36 @@ entries:
     - https://github.com/tmaier/errbit-helm
     - https://github.com/errbit/errbit
     urls:
-    - https://tmaier.github.io/errbit-helm/errbit-helm-0.1.0.tgz
+    - errbit-helm-0.1.0.tgz
     version: 0.1.0
-generated: 2018-01-13T18:35:17.100120415+01:00
+  mongodb:
+  - annotations:
+      category: Database
+    apiVersion: v1
+    appVersion: 4.4.1
+    created: "2021-02-03T18:18:07.156297256+03:00"
+    description: NoSQL document-oriented database that stores JSON-like documents
+      with dynamic schemas, simplifying the integration of data in content-driven
+      applications.
+    digest: 9b6419411db366a9b25ef501d8b49b7d4ddfbb6abd590c0aa53ba0b69b598e8f
+    engine: gotpl
+    home: https://github.com/bitnami/charts/tree/master/bitnami/mongodb
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    - cluster
+    - replicaset
+    - replication
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    - https://mongodb.org
+    urls:
+    - charts/mongodb-9.3.1.tgz
+    version: 9.3.1
+generated: "2021-02-03T18:18:07.138407725+03:00"
